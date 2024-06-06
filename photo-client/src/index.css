@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #38a4fe;
+  color: white;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 30%;
+}
+
+thead th:nth-child(4) {
+  width: 20%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+}
+
+img {
+  width: 300px;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: #38a4fe;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.pages {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-form-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-form-modal {
+  background-color: white;
+  padding: 20px;
+  width: 600px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  margin-top: .5rem;
+}
